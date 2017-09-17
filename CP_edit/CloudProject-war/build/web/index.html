@@ -1,0 +1,131 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Registration Form</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="default.css"/>
+    </head>
+    <body>    
+        <form action="register" method="POST" class="register">
+            <h1>Registration</h1>
+            <fieldset class="row1">
+                <legend>Account Details
+                </legend>
+                <p>
+                    <label>Username *
+                    </label>
+                    <input type="text" id="username"/>
+                    
+                </p>
+                <p>
+                    <label>Email-id*
+                    </label>
+                    <input type="text" id="email">
+
+                </p>
+                <p>
+                    <label>Password*
+                    </label>
+                    <input type="text"id="password"/>
+                    
+                    <label class="obinfo">* obligatory fields
+                    </label>
+                </p>
+            </fieldset>
+            <fieldset class="row2">
+                <legend>Personal Details
+                </legend>
+                <p>
+                    <label>First Name *
+                    </label>
+                    <input type="text" class="long" id="fname"/>
+                </p>
+                <p>
+                    <label>Last Name *
+                    </label>
+                    <input type="text" class="long" id="lname"/>
+                </p>
+                <p>
+                    <label>Phone *
+                    </label>
+                    <input type="text" maxlength="10" id="phone"/>
+                </p>
+                <p>
+                    <label class="optional">Address *
+                    </label>
+                    <input type="text" class="long" id="address"/>
+                </p>
+                <p>
+                    <label>City *
+                    </label>
+                    <input type="text" class="long" id="city"/>
+                </p>
+                <p>
+                    <label>State *
+                    </label>
+                    <input type="text" class="long" id="state"/>
+                </p>
+                <p>
+                    <label>Pin *
+                    </label>
+                    <input type="text" class="long" id="pin"/>
+                </p>
+                <p>
+                    <label>Country *
+                    </label>
+                    <input type="text" class="long" id="country"/>
+                </p>
+                
+            </fieldset>
+            <fieldset class="row3">
+                <legend>Further Information
+                </legend>
+                <p>
+                    <label>Card Details *</label>
+                    <input type="text" id="card"/>
+                    
+                </p>
+                <p>
+                    <label>Expiry Period *
+                    </label>
+                    
+                    <select>
+                        <option value="1">January
+                        </option>
+                        <option value="2">February
+                        </option>
+                        <option value="3">March
+                        </option>
+                        <option value="4">April
+                        </option>
+                        <option value="5">May
+                        </option>
+                        <option value="6">June
+                        </option>
+                        <option value="7">July
+                        </option>
+                        <option value="8">August
+                        </option>
+                        <option value="9">September
+                        </option>
+                        <option value="10">October
+                        </option>
+                        <option value="11">November
+                        </option>
+                        <option value="12">December
+                        </option>
+                    </select>
+                    <input class="year" type="text" size="4" maxlength="4"/>e.g 1976
+                </p>
+                
+            </fieldset>
+            <div><button class="button">Register &raquo;</button></div>
+        </form>
+    </body>
+</html>
+
+
+
+
+
